@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Forms</title>
+</head>
+<body>
+
+  <h1>Forms Assignment</h1>
+  <hr>
+
+  <!-- 1. Contact Form -->
+  <h2>Contact Form</h2>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" placeholder="Your Name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" placeholder="Your Email" required><br><br>
+
+    <label for="msg">Message:</label><br>
+    <textarea id="msg" rows="4" placeholder="Type your message..."></textarea><br><br>
+
+    <button type="submit">Send</button>
+  </form>
+
+  <hr>
+
+  <!-- 2. Signup Form -->
+  <h2>Signup Form</h2>
+  <form>
+    <label for="user">Username:</label><br>
+    <input type="text" id="user" placeholder="Choose a username"><br><br>
+
+    <label for="pass">Password:</label><br>
+    <input type="password" id="pass" placeholder="Create a password"><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" min="1" placeholder="Your age"><br><br>
+
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <hr>
+
+  <!-- 3. Feedback Form -->
+  <h2>Feedback Form</h2>
+  <form>
+
+    <p>How was your experience?</p>
+    <input type="radio" name="exp" value="good"> Good<br>
+    <input type="radio" name="exp" value="okay"> Okay<br>
+    <input type="radio" name="exp" value="bad"> Bad<br><br>
+
+    <p>What did you like?</p>
+    <input type="checkbox" value="ui"> UI Design<br>
+    <input type="checkbox" value="speed"> Speed<br>
+    <input type="checkbox" value="features"> Features<br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <hr>
+
+  <!-- 4. Select Your City Form -->
+  <h2>Select Your City</h2>
+  <form>
+    <label for="city">City:</label><br>
+    <select id="city">
+      <option>Chennai</option>
+      <option>Bangalore</option>
+      <option>Mumbai</option>
+      <option>Delhi</option>
+    </select><br><br>
+
+    <button type="submit">Confirm</button>
+  </form>
+
+  <hr>
+
+  <!-- 5. Mini Profile Form with fieldset -->
+  <h2>Mini Profile Form</h2>
+  <form>
+    <fieldset>
+      <legend>Profile Information</legend>
+
+      <label for="pname">Name:</label><br>
+      <input type="text" id="pname"><br><br>
+
+      <label for="page">Age:</label><br>
+      <input type="number" id="page"><br><br>
+
+      <label for="pbio">Bio:</label><br>
+      <textarea id="pbio" rows="3" placeholder="Write a short bio..."></textarea><br><br>
+
+      <button type="submit">Save</button>
+    </fieldset>
+  </form>
+
+</body>
+</html>
